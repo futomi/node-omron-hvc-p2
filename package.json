@@ -1,0 +1,43 @@
+{
+  "name": "node-omron-hvc-p2",
+  "version": "0.0.1",
+  "description": "The node-omron-hvc-p2 is a Node.js module which allows you to communicate with the image sensing device \"OMRON Human Vision Components (HVC-P2)\" through a USB serial port.",
+  "main": "./lib/HvcP2.js",
+  "files": [
+    "lib",
+    "images"
+  ],
+  "directories": {
+    "lib": "./lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "OMRON",
+    "Human Vision Components",
+    "HVC-P2",
+    "OKAO",
+    "HUMAN BODY DETECTION",
+    "HAND DETECTION",
+    "FACE DETECTION",
+    "FACE DIRECTION ESTIMATION",
+    "AGE ESTIMATION",
+    "GENDER ESTIMATION",
+    "GAZE ESTIMATION",
+    "BLINK ESTIMATION",
+    "EXPRESSION ESTIMATION",
+    "FACE RECOGNITION"
+  ],
+  "homepage": "https://github.com/futomi",
+  "author": "Futomi Hatano <futomi.hatano@gmail.com> (https://github.com/futomi)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/futomi/node-omron-hvc-p2.git"
+  },
+  "readmeFilename": "README.md",
+  "dependencies": {
+    "serialport": ">=4.0.7"
+  }
+}
