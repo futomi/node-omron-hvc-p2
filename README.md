@@ -23,7 +23,8 @@ The node-omron-hvc-p2 supports all functions supported by the [HVC-P2](http://ww
 ## Dependencies
 
 * [Node.js](https://nodejs.org/en/) 6 +
-* [serialport](https://github.com/EmergingTechnologyAdvisors/node-serialport)
+* [serialport](https://github.com/EmergingTechnologyAdvisors/node-serialport) 5.0.0 +
+  * If the serialport module has been already installed in you host computer, check the version. The node-omron-hvc-p2 now does not support older versions of the serialport module than 5.0.0 .
 * [node-gd](https://github.com/y-a-v-a/node-gd) (Optional, for Linux, Mac)
 * [lwip](https://github.com/EyalAr/lwip) (Optional, for Windows)
 
@@ -1243,6 +1244,9 @@ hvcp2.reformatFlashROM();
 
 ---------------------------------------
 ## <a id="Release-Note">Release Note</a>
+
+* v0.1.0 (2017-08-06)
+  * The auto detection of a USB serial port was Improved with more efficient way.
 
 * v0.0.1 (2017-06-24)
   * First public release

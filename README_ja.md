@@ -23,7 +23,8 @@ node-omron-hvc-p2 は、[HVC-P2](http://www.omron.com/ecb/products/mobile/hvc_p2
 ## 依存関係
 
 * [Node.js](https://nodejs.org/en/) 6 +
-* [serialport](https://github.com/EmergingTechnologyAdvisors/node-serialport)
+* [serialport](https://github.com/EmergingTechnologyAdvisors/node-serialport) 5.0.0 +
+  * すでに serialport モジュールがインストールされている場合は、そのバージョンを確認してください。node-omron-hvc-p2 は 5.0.0 より古いバージョンの serialport モジュールをもうサポートしていません。
 * [node-gd](https://github.com/y-a-v-a/node-gd) (Optional, for Linux, Mac)
 * [lwip](https://github.com/EyalAr/lwip) (Optional, for Windows)
 
@@ -1243,6 +1244,9 @@ hvcp2.reformatFlashROM();
 
 ---------------------------------------
 ## <a id="Release-Note">リリースノート</a>
+
+* v0.1.0 (2017-08-06)
+  * USB シリアルポートの自動認識を、より効率的な方法に改良しました。
 
 * v0.0.1 (2017-06-24)
   * First public release
