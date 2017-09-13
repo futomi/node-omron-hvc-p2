@@ -1,6 +1,8 @@
 node-omron-hvc-p2
 ===============
 
+[[Japanese (日本語)](README_ja.md)]
+
 The node-omron-hvc-p2 is a Node.js module which allows you to communicate with the image sensing device "[OMRON Human Vision Components (HVC-P2)](http://www.omron.com/ecb/products/mobile/hvc_p2/)" through a USB serial port.
 
 ![OMRON Human Vision Components (HVC-P2)](images/HVC-P2.jpg)
