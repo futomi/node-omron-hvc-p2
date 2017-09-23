@@ -1247,9 +1247,10 @@ hvcp2.reformatFlashROM();
 ---------------------------------------
 ## <a id="Release-Note">Release Note</a>
 
+* v0.1.1 (2017-09-23)
+  * Fixed a bug that an error was thrown when no device was found depending on a condition.
 * v0.1.0 (2017-08-06)
   * The auto detection of a USB serial port was Improved with more efficient way.
-
 * v0.0.1 (2017-06-24)
   * First public release
 
