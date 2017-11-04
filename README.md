@@ -1247,6 +1247,8 @@ hvcp2.reformatFlashROM();
 ---------------------------------------
 ## <a id="Release-Note">Release Note</a>
 
+* v0.1.2 (2017-11-04)
+  * Improved the auto-detection of USB port on Linux.
 * v0.1.1 (2017-09-23)
   * Fixed a bug that an error was thrown when no device was found depending on a condition.
 * v0.1.0 (2017-08-06)
